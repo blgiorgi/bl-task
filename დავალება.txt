@@ -1,27 +1,25 @@
-- უნდა დაგენერირდეს ანგულარის standalone აპლიკაცია;
+- უნდა დაგენერირდეს ანგულარის აპლიკაცია;
 
-- ამ აპლიკაციაში უნდა იყოს ცხრილი რომელსაც ექნება 2 ტაბი Normal და Vip დასახელებებით;
+- ამ აპლიკაციაში უნდა იყოს ცხრილი რომელსაც ექნება 2 ტაბი Regular და Vip დასახელებებით;
 
 - ტაბებში დაიხატება მოთამაშეების სია და მათ მიერ დაგროვებული ქულები;
  
-- ტაბები გააქტიურდება url-ს მიხედვით. მაგალითად localhost:4200/normal და localhost:4200/vip;
+- ტაბები გააქტიურდება url-ს მიხედვით. მაგალითად localhost:4200/regular და localhost:4200/vip;
 
 - ასევე ტაბის გადართვისას უნდა შეიცვალოს url-იც.
 
 - თითოეულ ცხრილში განსხვავებული სვეტები იხატება:
-Normal - ცხრილში უნდა გამოვიტანოთ შემდეგი სვეტები: username, points, prizeId;
-Vip - ცხრილში უნდა გამოვიტანოთ შემდეგი სვეტები: username, points, prizeId, statusId;
+Regular - ცხრილში უნდა გამოვიტანოთ შემდეგი სვეტები: place, username, points, prizeName(prizeId);
+Vip - ცხრილში უნდა გამოვიტანოთ შემდეგი სვეტები: place, username, points, prizeName(prizeId);
 
 - ორივე ტაბისთვის არის ინდივიდუალური ენდპოინტი როგორც მომხმარებლების წამოსაღებად ასევე,
  ინდივიდუალური ენდპოინტი პრიზების წამოსაღებად;
 
-Normal users - https://raw.githubusercontent.com/blgiorgi/bl-task/refs/heads/main/normal-users.json
-Normal Prizes - https://raw.githubusercontent.com/blgiorgi/bl-task/refs/heads/main/normal-prizes.json
+Regular users - https://raw.githubusercontent.com/blgiorgi/bl-task/refs/heads/main/normal-users.json
+Regular prizes - https://raw.githubusercontent.com/blgiorgi/bl-task/refs/heads/main/normal-prizes.json
 
 Vip users - https://raw.githubusercontent.com/blgiorgi/bl-task/refs/heads/main/vip-users.json
 Vip Prizes - https://raw.githubusercontent.com/blgiorgi/bl-task/refs/heads/main/vip-prizes.json
 
 - თქვენი მიზანია დამერჯოთ არსებული პრიზები იუზერებთან prizeId-ის მიხედვით და ცხრილში გამოიტანოთ უკვე prizeName ველი;
-
-- ასევე status-ებიც VIP ცრილში უნდა გამოვიდეს ტექსტური სახით: Gold = 1, Silver = 2, Bronze = 3;
 
