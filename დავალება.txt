@@ -8,9 +8,8 @@
 
 - ასევე ტაბის გადართვისას უნდა შეიცვალოს url-იც.
 
-- თითოეულ ცხრილში განსხვავებული სვეტები იხატება:
-Regular - ცხრილში უნდა გამოვიტანოთ შემდეგი სვეტები: place, username, points, prizeName(prizeId);
-Vip - ცხრილში უნდა გამოვიტანოთ შემდეგი სვეტები: place, username, points, prizeName(prizeId);
+- ცხრილში იხატება სვეტები:
+    place, username, points, prizeName(prizeId);
 
 - ორივე ტაბისთვის არის ინდივიდუალური ენდპოინტი როგორც მომხმარებლების წამოსაღებად ასევე,
  ინდივიდუალური ენდპოინტი პრიზების წამოსაღებად;
@@ -22,4 +21,8 @@ Vip users - https://raw.githubusercontent.com/blgiorgi/bl-task/refs/heads/main/v
 Vip Prizes - https://raw.githubusercontent.com/blgiorgi/bl-task/refs/heads/main/vip-prizes.json
 
 - თქვენი მიზანია დამერჯოთ არსებული პრიზები იუზერებთან prizeId-ის მიხედვით და ცხრილში გამოიტანოთ უკვე prizeName ველი;
+
+
+
+
 
